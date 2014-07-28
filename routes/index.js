@@ -11,3 +11,6 @@ exports.login = function(req, res){
 exports.ourcontact = function(req, res){
   res.render('our-contact');
 };
+exports.socket = function(req, res){
+  res.render('socket');
+};

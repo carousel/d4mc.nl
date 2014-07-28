@@ -6,8 +6,9 @@
 var express = require('express')
   , routes = require('./routes');
 
-  console.log(routes);
+
 var app = module.exports = express.createServer();
+var socket = require("socket.io")(app);
 
 // Configuration
 
@@ -34,6 +35,7 @@ app.configure('production', function(){
 app.get('/', routes.index);
 app.get('/terms', routes.terms);
 app.get('/login', routes.login);
+app.get('/socket', routes.socket);
 
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
