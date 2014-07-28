@@ -37,6 +37,4 @@ app.get('/terms', routes.terms);
 app.get('/login', routes.login);
 app.get('/socket', routes.socket);
 
-app.listen(3000, function(){
-  console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
-});
+app.listen(80,"80.240.134.122");
