@@ -1,0 +1,458 @@
+/*
+ Table Of Contents
+ 1.) Eric Meyer's Reset
+ 2.) Global Typography
+ 2.0.1) Font Face
+ 2.0.2) Global Headings
+ 2.0.3) Form Elements
+ 2.0.4) List styles
+ 2.0.5) General Text Formatting
+ 2.0.6) Link elements
+ 2.0.7) Table Elements
+ 2.0.8) Button Styles
+ 2.0.9) Sprite Icons
+ 2.1.0) Grid Style
+ 3.) Site Wide Content
+ 4.) Header Style
+ 5.) Footer Style
+ ===============================================*/
+
+/*
+ 1.) Eric Meyer's Reset
+ ----------------------------------------*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+ 1.) Global Typography
+ ----------------------------------------*/
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	color: #252525;
+	font-size: 81.25%;
+	font-family: 'helveticaneuemedium', Arial, Helvetica, sans-serif;
+}
+/*
+ 2.0.1) Font Face
+ -----------------------------*/
+/*Put Your font face Styles here*/
+@font-face {
+    font-family: 'helveticaneue_w01_25_ultltRg';
+    src: url('../fonts/helvetica-neue-webfont-webfont.eot');
+    src: url('../fonts/helvetica-neue-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helvetica-neue-webfont-webfont.woff') format('woff'),
+         url('../fonts/helvetica-neue-webfont-webfont.ttf') format('truetype'),
+         url('../fonts/helvetica-neue-webfont-webfont.svg#helveticaneue_w01_25_ultltRg') format('svg');   
+}
+@font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('../fonts/helveticaneue_medium-webfont.eot');
+    src: url('../fonts/helveticaneue_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue_medium-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue_medium-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneue_medium-webfont.svg#helveticaneuemedium') format('svg');    
+}
+@font-face {
+    font-family: 'helveticaneuebold';
+    src: url('../fonts/helveticaneue_bold-webfont.eot');
+    src: url('../fonts/helveticaneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue_bold-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue_bold-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneue_bold-webfont.svg#helveticaneuebold') format('svg');   
+}
+/*
+ 2.0.2) Global Headings
+ -----------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #161e21;
+}
+h1, h2 {
+	font-size: 1.38em;
+	margin: 0 0 0.4375em 0;
+	 font-family: 'helveticaneuebold';
+}
+h3 {
+	font-size: 2.69em;
+	margin: 0 0 10px 0;
+}
+h4, h5, h6 {
+	font-size: 1.69em;
+	line-height: 1;
+	margin: 0 0 1em 0;
+}
+
+/*
+ 2.0.3) Form Elements
+ -----------------------------*/
+button, input, optgroup, select, textarea {
+	-webkit-appearance: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.15em;
+	color: #999898;
+	background: #fff;
+	border: 2px solid #d4d4d4;
+	font-family: 'helveticaneuemedium';
+	border-radius: 3px;
+	width: 100%;
+}
+input {
+	line-height: normal;
+}
+input:focus, select:focus, textarea:focus, button:focus {
+	border: 2px solid #d4d4d4;
+	outline: 0;
+}
+input[type="checkbox"], input[type="radio"] {
+	padding: 0;
+	border: none;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], input[type="file"] {
+	-webkit-appearance: none;
+	cursor: pointer;
+	line-height: normal;
+	overflow: visible;
+}
+button[disabled], input[disabled] {
+	cursor: default;
+	color: #999;
+	border-color: #ccc;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+input[type="text"], input[type="password"], textarea {
+	height: 32px;
+	padding: 0 10px;
+}
+/*
+ 2.0.4) List Styles
+ ---------------------------------*/
+ul, ol, dl {
+	/*font-size: 100%;*/
+	line-height: 1.5;
+}
+li, dt {
+	line-height: 1.5em;
+}
+dl {
+	margin: 0 0 1em 0;
+}
+dd {
+	margin: 0 0 1em 0.8em;
+}
+ul {
+	list-style-type: none;
+	margin: 0 0 1em 0;
+}
+ol {
+	list-style-type: decimal;
+	margin: 0 0 1em 0;
+}
+ul ul, ol ul {
+	list-style-type: none;
+	margin-top: 0;
+}
+ol ol {
+	list-style-type: lower-latin;
+	margin-top: 0;
+}
+
+/*
+ 2.0.5) General Text Formatting
+ -----------------------------------*/
+p {
+	line-height: 1.5;
+}
+blockquote, cite, q, var, dfn {
+	font-style: italic;
+}
+blockquote {
+	background: transparent;
+	color: #666666;
+}
+strong {
+	font-weight: bold;
+}
+small {
+	font-size: 100%;
+	line-height: 1.75;
+}
+pre, code, kbd, tt, samp, var {
+	font-size: 100%;
+}
+pre {
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0 0 1.5em 0;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+pre, code {
+	color: #880000;
+}
+kbd, samp, var {
+	color: #666666;
+	font-weight: bold;
+}
+acronym, abbr {
+	border-bottom: 1px #aaa dotted;
+	font-variant: small-caps;
+	cursor: help;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/*
+ 2.0.6) Link style
+ -------------------------*/
+a {
+	color: #252525;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #252525;
+	text-decoration: none;
+}
+a:active {
+	outline: none;
+}
+
+/*
+ 2.0.7) Table Elements
+ --------------------------*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+	color: #444444;
+	border-top: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	margin: 0 0 1.35714em 0;
+}
+caption {
+	font-variant: small-caps;
+}
+th, td {
+	line-height: 1.5em;
+	vertical-align: top;
+	padding: 0.71429em 0.5em;
+}
+th *:first-child, td *:first-child {
+	margin-top: 0;
+}
+thead th {
+	text-align: left;
+	color: #000;
+	border-bottom: 2px #000 solid;
+}
+tbody th {
+	text-align: left;
+	border-top: 1px solid #ccc;
+}
+tbody td {
+	text-align: left;
+	border-top: 1px solid #ccc;
+}
+
+/*
+ 2.0.8) Button Styles
+ -------------------------*/
+.btn {
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 1.38em;
+	color: #ffffff;
+	line-height: normal;
+	vertical-align: middle;
+	padding: 8px 15px;
+	text-align: center;
+	white-space: nowrap;
+	 font-family: 'helveticaneuebold';
+	cursor: pointer;
+	border: 1px solid #ce2626;
+	background: #ee3e3e; /* Old browsers */
+	background: -moz-linear-gradient(top, #ee3e3e 0%, #ef3f3f 43%, #ec3a3a 49%, #da2627 57%, #da2826 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ee3e3e), color-stop(43%,#ef3f3f), color-stop(49%,#ec3a3a), color-stop(57%,#da2627), color-stop(100%,#da2826)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ee3e3e 0%,#ef3f3f 43%,#ec3a3a 49%,#da2627 57%,#da2826 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ee3e3e 0%,#ef3f3f 43%,#ec3a3a 49%,#da2627 57%,#da2826 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ee3e3e 0%,#ef3f3f 43%,#ec3a3a 49%,#da2627 57%,#da2826 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ee3e3e 0%,#ef3f3f 43%,#ec3a3a 49%,#da2627 57%,#da2826 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3e3e', endColorstr='#da2826',GradientType=0 ); /* IE6-9 */
+}
+.btn-default {
+	border: 1px solid #5aa40c;
+	background: #7ed225; /* Old browsers */
+	background: -moz-linear-gradient(top, #7ed225 0%, #7ed225 41%, #7dcf23 46%, #79cb1f 49%, #63b40d 57%, #62b30c 59%, #63b40d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7ed225), color-stop(41%,#7ed225), color-stop(46%,#7dcf23), color-stop(49%,#79cb1f), color-stop(57%,#63b40d), color-stop(59%,#62b30c), color-stop(100%,#63b40d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #7ed225 0%,#7ed225 41%,#7dcf23 46%,#79cb1f 49%,#63b40d 57%,#62b30c 59%,#63b40d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #7ed225 0%,#7ed225 41%,#7dcf23 46%,#79cb1f 49%,#63b40d 57%,#62b30c 59%,#63b40d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #7ed225 0%,#7ed225 41%,#7dcf23 46%,#79cb1f 49%,#63b40d 57%,#62b30c 59%,#63b40d 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #7ed225 0%,#7ed225 41%,#7dcf23 46%,#79cb1f 49%,#63b40d 57%,#62b30c 59%,#63b40d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ed225', endColorstr='#63b40d',GradientType=0 ); /* IE6-9 */
+}
+
+.btn:hover, .btn:focus {
+	color: #ffffff;
+	border: 1px solid #ce2626;
+}
+.btn-default:hover, .btn-default:focus {
+	border: 1px solid #5aa40c;
+}
+/*
+ 2.0.9) Sprite Icons
+ -------------------------*/
+[class^="icon-"] {
+	background-image: url(../images/sprite.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: text-top;
+	width: 14px;
+}
+/*
+ 2.1.0) Grid Style
+ -------------------------*/
+.page {
+	max-width: 851px;
+	width: 100%;
+	margin: 0 auto;
+}
+.clearfix:before {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+/*
+ 3.) Site Wide Content
+ ------------------------------*/
+#wrapper {
+	background: url(../bg-images/home1.jpg) center top no-repeat;
+}
+*, :before, :after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*
+ 4.) Header Styles
+ ------------------------------*/
+#header, #footer {
+	background-color: #252525;
+	padding: 27px 0px 22px 0px;
+}
+.logo, .casual-date {
+	float: left;
+}
+.logo{
+	width: 23%;
+}
+.casual-date {
+	color: #FFFFFF;
+	font-size: 1.53em;
+	margin: 16px 0 0 17px;
+}
+.login-form {
+	float: right;
+}
+.login-form ul {
+	overflow: hidden;
+	margin: 0;
+}
+.login-form li {
+	float: left;
+	margin-left: 13px;
+}
+.login-form input[type="text"], .login-form input[type="password"] {
+	background-color: #434343;
+	border: none;
+	width: 180px;
+}
+.forgot-password {
+	display: block;
+	margin-top: 5px;
+	text-align: right;
+}
+.forgot-password a {
+	color: #ffffff;
+}
+/*
+ 5.) Footer Styles
+ ------------------------------*/
+#footer {
+	line-height: 1.3;
+}
+#footer a, #footer {
+	color: #c1c0c0;	
+}
+.footer-nav ul{
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+.footer-nav li, .copy-right{
+	float: left;
+}
+.footer-nav {
+	float: right;
+}
+.footer-nav li{
+	margin-left: 18px;
+}

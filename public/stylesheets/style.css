@@ -1,0 +1,371 @@
+/*Table Of Content:-->
+ 1--> Styling home page Content Section
+ 2--> Styling Contact Page Contact Section
+ 3--> Styling Terms Page Contact Section
+ 4--> Styling Login Page
+ -----------------------------------------------------*/
+/*1--> Styling Content Section Start Here*/
+.banner {
+	position: relative;
+	max-height: 679px;
+	overflow: hidden;
+}
+.banner img {
+	width: 100%;
+}
+.banner ul {
+	margin: 0;
+}
+.bx-wrapper {
+	margin: 0;
+}
+.caption {
+	background: url(../images/caption-repeater.png) 0 0 repeat;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 40px 0px 33px 0px;
+}
+.caption h1 {
+	font-size: 2.69em;
+	color: #ffffff;
+	line-height: 1.2;
+	margin-bottom: 0px;
+}
+.sign-up {
+	position: absolute;
+	right: 0;
+	top: 5%;
+	width: 100%;
+}
+.sign-up form {
+	width: 345px;
+	float: right;
+}
+.links {
+	padding: 19px 17px 12px;
+	background-color: #ffffff;
+}
+.signup-heading {
+	color: #ffffff;
+	background-color: #e92929;
+	border-radius: 10px 10px 0 0;
+	padding-top: 22px;
+}
+.signup-heading span {
+	font-size: 1.49em;
+	padding-bottom: 2px;
+	display: block;
+}
+.signup-heading h2 {
+	font-size: 2.53em;
+	color: #ffffff;
+	margin: 0;
+}
+.icon-fb {
+	background-position: 0 0;
+	width: 180px;
+	height: 30px;
+}
+.fb-login {
+	border-bottom: 1px solid #c8c8c8
+}
+.fb-login span {
+	display: block;
+	margin-top: 12px;
+	margin-bottom: 6px;
+}
+.registration {
+	border-radius: 0 0 10px 10px;
+	padding-top: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+.registration strong {
+	font-size: 1.15em;
+	display: block;
+	padding: 3px 0px;
+}
+.registration ul {
+	margin: 0;
+}
+.registration li {
+	margin-top: 17px;
+}
+.shape {
+	position: relative;
+	text-align: center;
+	top: -10px;
+}
+.icon-half-circle {
+	background-position: 0 -48px;
+	color: #A9A9A9;
+	font-size: 1.15em;
+	height: 32px;
+	width: 47px;
+	background-color: #ffffff;
+}
+.registration .btn {
+	width: auto;
+}
+.gallary {
+	background-color: #e92929;
+	position: relative;
+}
+.gallary ul {
+	overflow: hidden;
+	margin: 0;
+	position: relative;
+}
+.gallary li {
+	cursor: pointer;
+	float: left;
+	margin: 0.5%;
+	width: 6.69%;
+}
+.gallary li img {
+	display: block;
+	opacity: 0.2;
+	width: 100%;
+	-webkit-transition: all ease-in-out 1s 0s;
+	-moz-transition: all ease-in-out 1s 0s;
+	transition: all ease-in-out 1s 0s;
+}
+/*.gallary li:hover > img {
+ opacity: 1;
+ }*/
+.join-date {
+	font-size: 1.7em;
+}
+.join-date, .sexy-dates h3, .member, .sexy-dates p {
+	font-family: 'helveticaneuebold';
+}
+.sexy-dates h3 {
+	line-height: 1.3;
+	margin-bottom: 16px;
+}
+.sexy-dates {
+	padding: 49px 0;
+	position: absolute;
+	right: 23%;
+	top: 0;
+	width: 543px;
+	z-index: 1;
+}
+.member, .sexy-dates p {
+	font-size: 1.2em;
+}
+.sexy-dates p a, .sexy-dates h3, .sexy-dates {
+	color: #FFFFFF;
+}
+.sexy-dates p {
+	line-height: 1.4;
+	margin: 20px 0;
+}
+.sexy-dates p a {
+	text-decoration: underline;
+}
+.primary-section {
+	background-color: #f1eeee;
+	height: 100px;
+	display: block;
+}
+.dating-system ul {
+	overflow: hidden;
+	margin: -62px 0 0px 0;
+	position: relative;
+	padding-bottom: 33px;
+}
+.dating-system li {
+	float: left;
+	margin: 0 2%;
+	text-align: center;
+	width: 29%;
+}
+.dating-system h4 {
+	font-family: 'helveticaneuebold';
+	line-height: 1.2;
+	margin: 20px 0 9px;
+}
+.dating-system p {
+	font-size: 1.23em;
+}
+.circle-art {
+	width: 132px;
+	height: 132px;
+	line-height: 150px;
+	border-radius: 50%;
+	border: 12px solid #ffffff;
+	display: inline-block;
+}
+.tested {
+	background-color: #ff8a00;
+}
+.photo {
+	background-color: #7ed126;
+}
+.friendly {
+	background-color: #55b7d4;
+	line-height: 160px;
+}
+/*1--> Styling Content Section End Here*/
+/*2--> Styling Contact Page Start Here*/
+.side-bar {
+	border-right: 1px solid #C8C8C8;
+	float: left;
+	width: 33.3%;
+}
+.side-bar h2 {
+	margin-bottom: 11px;
+}
+.aside-block {
+	border-bottom: 1px solid #C8C8C8;
+	padding: 20px 20px 20px 0;
+	overflow: hidden;
+}
+.aside-block .btn {
+	float: right;
+	padding: 8.5px 18px;
+}
+.aside-block.company {
+	padding-top: 25px;
+}
+.aside-block.queries {
+	padding-top: 30px;
+}
+.aside-block p {
+	line-height: 1.9;
+	margin-bottom: 9px;
+}
+.queries ul {
+	margin-bottom: 16px;
+}
+.queries li {
+	border-top: 1px solid #C8C8C8;
+	padding: 7px 0;
+	background: url(../images/arrow.png) left center no-repeat;
+	padding-left: 20px;
+}
+.queries li:first-child {
+	border: none;
+}
+.queries li a {
+
+}
+.queries p {
+	margin-bottom: 0;
+}
+.queries p a {
+	color: #da2727;
+	text-decoration: underline;
+}
+.question {
+	font-family: 'helveticaneuebold';
+	line-height: 1.5;
+}
+.company span {
+	line-height: 2.1;
+	display: block;
+}
+.company address {
+	margin-bottom: 10px;
+}
+.pagina {
+	border: none;
+	padding-bottom: 0;
+}
+.main-content {
+	border-bottom: 1px solid #C8C8C8;
+	float: right;
+	padding: 20px 0 25px 20px;
+	width: 66.7%;
+}
+.main-content h1, .main-content h2 {
+	margin-bottom: 14px;
+}
+.contact-form {
+	overflow: hidden;
+}
+.contact-form ul {
+	margin: 0;
+	width: 55%;
+}
+.contact-form li {
+	margin-top: 18px;
+}
+.contact-form textarea {
+	height: 105px;
+	padding-top: 6px;
+}
+.contact-form .btn {
+	width: auto;
+}
+/*2--> Styling Contact Page End Here*/
+/*3--> Styling Terms Section Start Here*/
+.terms p {
+	margin-bottom: 27px;
+	line-height: 1.9;
+}
+.terms p:last-child {
+	margin-bottom: 0px;
+}
+/*3--> Styling Terms Section End Here*/
+/*4--> Styling Login Section Start Here*/
+.error-msg {
+	color: #DA2727;
+	font-family: 'helveticaneuebold';
+	line-height: 1.5;
+}
+.open-account {
+	float: right;
+	margin: 10px;
+}
+.open-account a {
+	color: #DA2727;
+	text-decoration: underline;
+}
+.login-page-sidebar {
+	float: none;
+}
+/*4--> Styling Login Section End Here*/
+.company span.mail {
+	padding-bottom: 10px;
+}
+.main-content.terms {
+	padding-bottom: 22px;
+}
+.desktop-banner {
+	display: block !important;
+}
+.tablet-banner, .mobile-banner {
+	display: none !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+	.banner img {
+		min-height: 550px;
+	}
+	.caption {
+		padding: 15px 30px;
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1340px) {	
+	.caption {
+		padding: 9px 30px;
+	}
+}
+@media screen and (min-width: 1340px) and (max-width: 1440px) {
+	.caption h1 {
+		font-size: 2.6em;
+		line-height: 1.1;
+	}	
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+	.gallary li {
+		margin: 0.3%;
+		width: 8.33%
+	}
+}
+

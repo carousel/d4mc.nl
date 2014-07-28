@@ -1,0 +1,139 @@
+/*Table Of Content:-->
+ 1--> Styling home page Content Section
+ 2--> Styling Contact Page Contact Section
+ 3--> Styling Terms Page Contact Section
+ 4--> Styling Login Page
+ -----------------------------------------------------*/
+
+/*1--> Styling Content Section Start Here*/
+.logo, .casual-date, .login-form, .login-form li {
+	float: none;
+}
+#header, #footer {
+	padding: 23px 0 17px;
+}
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 192px;
+}
+.casual-date {
+	display: block;
+	text-align: center;
+	margin: 24px 0 10px;
+}
+.login-form, .forgot-password {
+	text-align: center;
+}
+.forgot-password {
+	margin-top: 15px;
+}
+.login-form li {
+	margin: 0 0 10px;
+}
+.login-form .btn {
+	width: 50%;
+	height: 40px;
+}
+.banner img {
+	min-height: 686px;
+}
+.sign-up form {
+	float: none;
+	font-size: 85%;
+	margin: 0 auto;
+	width: 300px;
+}
+.signup-heading h2 {
+	font-size: 2.3em;
+}
+.caption {
+	font-size: 47%;
+	padding: 15px 10px 20px;
+	text-align: center;
+}
+.gallary li {
+	width: 24%;
+}
+.sexy-dates {
+	top: 4.5%;
+	padding: 49px 0;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: 0px auto;
+	text-align: center;
+	width: 95%;
+}
+.gallary ul {
+	max-height: 566px;
+}
+.dating-system li {
+	float: none;
+	width: 80%;
+	margin: 0 10% 10px;
+}
+#footer {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.copy-right {
+	display: block;
+	line-height: 1.9;
+	width: 85%;
+	margin: 0px auto;
+	color: #ffffff;
+}
+.login-form input[type="text"], .login-form input[type="password"] {
+	width: 85%;
+	height: 40px;
+}
+.footer-nav li:first-child {
+	margin: 0px;
+}
+.footer-nav li {
+	margin-left: 3px;
+}
+.footer-nav li, .copy-right, .footer-nav {
+	float: none;
+}
+.footer-nav li {
+	display: inline;
+	line-height: 1.9;
+}
+/*1--> Styling Content Section End Here*/
+/*2--> Styling Contact Page Start Here*/
+.side-bar {
+	border-right: none;
+}
+.side-bar, .main-content {
+	padding-left: 15px;
+	padding-right: 15px;
+	float: none;
+	width: 100%;
+}
+.contact-form ul {
+	width: 100%;
+}
+/*2--> Styling Contact Page End Here*/
+/*3--> Styling Terms Section Start Here*/
+
+/*3--> Styling Terms Section End Here*/
+/*4--> Styling Login Section Start Here*/
+.open-account {
+	margin: 13px 0 0;
+}
+.sign-up {
+	top: 12%;
+}
+.tablet-banner, .desktop-banner {
+	display: none  !important;
+}
+.mobile-banner {
+	display: block !important;
+}
+.caption h1 {
+	font-size: 20px;
+	line-height: 1.6;
+}

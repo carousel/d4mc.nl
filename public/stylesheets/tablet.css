@@ -1,0 +1,96 @@
+/*Table Of Content:-->
+ 1--> Styling home page Content Section
+ 2--> Styling Contact Page Contact Section
+ 3--> Styling Terms Page Contact Section
+ 4--> Styling Login Page
+ -----------------------------------------------------*/
+
+/*1--> Styling Content Section Start Here*/
+#header, #footer, .sub-page {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#header, #footer {
+	padding-top: 20px;
+	padding-bottom: 12px;
+}
+.logo {
+	width: 20%;
+}
+.casual-date {
+	margin-left: 10px;
+	font-size: 1.3em;
+	margin-top: 13px;
+}
+.login-form li {
+	margin-left: 13px;
+}
+.sign-up form {
+	margin-right: 10px;
+}
+.signup-heading h2 {
+	font-size: 2.3em;
+}
+.gallary li {
+	width: 11.1111%;
+}
+.sexy-dates {
+	right: 7%;
+}
+#footer {
+	font-size: 90%;
+}
+.footer-nav li {
+	margin-left: 8px;
+}
+/*1--> Styling Content Section End Here*/
+/*2--> Styling Contact Page Start Here*/
+.side-bar, .main-content {
+	font-size: 93%;
+}
+.contact-form ul {
+	width: 70%;
+}
+/*2--> Styling Contact Page End Here*/
+/*3--> Styling Terms Section Start Here*/
+
+/*3--> Styling Terms Section End Here*/
+/*4--> Styling Login Section Start Here*/
+.open-account {
+	margin: 10px 0 0;
+}
+.login-form input[type="text"], .login-form input[type="password"] {
+	width: 170px;
+	height: 37px;
+}
+.login-form li:last-child {
+	margin-left: 30px;
+}
+.sign-up {
+	top: 3.5%;
+}
+.signup-heading {
+	padding-top: 18px;
+}
+.join-date {
+	font-size: 1.72em;
+}
+.our-contact .main-content > p {
+	line-height: 1.9;
+	font-size: 13px;
+}
+.aside-block p, .company span, .terms p {
+	font-size: 13px;
+}
+.queries li a {
+	font-size: 12px;
+}
+.tablet-banner {
+	display: block  !important;
+}
+.mobile-banner, .desktop-banner {
+	display: none  !important;
+}
+.gallary ul {
+	height: 346px;
+}
