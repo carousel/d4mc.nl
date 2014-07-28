@@ -1,1 +1,1 @@
-alert("hello socket.io");
+var socket = io();
