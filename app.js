@@ -33,8 +33,11 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', routes.index);
-app.get('/terms', routes.terms);
 app.get('/login', routes.login);
+app.get('/terms', routes.terms);
+app.get('/ourcontact', routes.ourcontact);
 app.get('/socket', routes.socket);
 
-app.listen(80,"80.240.134.122");
+//server
+//app.listen(80,"80.240.134.122");
+app.listen(3000);
